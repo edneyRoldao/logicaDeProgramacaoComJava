@@ -1,0 +1,37 @@
+package workingWithDates;
+
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+/**
+ * 
+ * @author edneyroldao
+ *
+ *	A classe calendar e abstrata, portando nao podemos instancia-la
+ *
+ */
+public class FirstExampleClassCalendar {
+
+	public static void main(String[] args) {
+		
+		Calendar a = Calendar.getInstance(); // aqui e retornado um gregorian calendar
+		Calendar b = new GregorianCalendar(); // e a mesmo coisa
+		
+		b.set(1982, Calendar.MAY, 10);
+
+		Date data = a.getTime(); // return um objeto do tipo calendar
+		System.out.println(data);
+		
+		// Recuperando o ano da data
+		int ano = a.get(Calendar.YEAR);
+		System.out.println(ano);
+		
+		// Recuperar o mes
+		int mes = a.get(Calendar.MONTH);
+		System.out.println(mes);
+		
+	}
+	
+	
+}

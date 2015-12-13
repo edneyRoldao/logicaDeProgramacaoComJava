@@ -1,0 +1,25 @@
+package solvedExercises;
+
+import java.util.Calendar;
+import java.util.Date;
+
+/**
+ * 
+ * @author edneyroldao
+ * This class is working with time of live through many ways
+ */
+public class TempoDeVida {
+	
+	public static void main(String[] args) {
+		System.out.println(Calendar.getInstance());
+	}
+	
+	public static int calcularDiasDeVida(int anoNascimento, int mesNascimento, int diaNascimento) {
+		
+		Date hoje = new Date();
+		int anoAtual = hoje.getYear();
+		
+		return 0;
+	}
+
+}

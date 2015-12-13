@@ -1,0 +1,20 @@
+package workingWithDates;
+
+import java.util.Date;
+
+public class FirstExampleDates {
+	
+	public static void main(String[] args) {
+	
+		/* Quantidade de milisegundos deste 1970 */
+		System.out.println(System.currentTimeMillis());
+		
+		/* Data atual do sistema */
+		Date data = new Date();
+		System.out.println(data);
+		
+	}
+	
+	
+
+}

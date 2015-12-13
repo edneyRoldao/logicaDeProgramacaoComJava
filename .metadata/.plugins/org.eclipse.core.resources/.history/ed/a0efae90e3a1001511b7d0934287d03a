@@ -1,0 +1,46 @@
+package solvedExercises;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.util.Calendar;
+import java.util.Date;
+
+/**
+ * 
+ * @author edneyroldao
+ * This class is working with time of live through many ways
+ */
+public class TempoDeVida {
+	
+	public static void main(String[] args) {
+		Calendar c  = Calendar.getInstance();
+		c.set(1982, 5, 10);
+		System.out.println(c.get(Calendar.DAY_OF_YEAR));
+		
+	}
+	
+	public static int calcularDiasDeVida(String data) {
+		
+		DateFormat df = DateFormat.getDateInstance();
+		Date dataNascimento = null;
+		try {
+			dataNascimento = df.parse(data);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}finally {
+			System.out.println("Informe a data no formato correto, dd/MM/aaaa");
+		}
+		
+		Calendar dataNascimentoAux = Calendar.getInstance();
+		Calendar dataHoje = Calendar.getInstance();
+		dataNascimentoAux.setTime(dataNascimento);
+		int diasEmAnosCompletos = dataHoje.get(Calendar.YEAR) - (dataNascimentoAux.get(Calendar.YEAR) - 2);
+		
+		int mesPrimeiroAno = dataNascimentoAux.get(Calendar.MONTH);
+		int diasEmMesesCompletosPrimeiroAno = 30 * (12 - mesPrimeiroAno);
+		//int diasTotaisPrimeiroAno = dataNascimentoAux.get(Calendar.D)
+		
+		return 0;
+	}
+
+}
