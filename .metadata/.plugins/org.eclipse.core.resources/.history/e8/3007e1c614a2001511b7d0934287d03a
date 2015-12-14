@@ -1,0 +1,11 @@
+package aula86_87_88_89_90_91.Collections;
+
+/**
+ * @author edneyroldao
+ *
+ *A interface set nao aceita registros duplicados
+ *
+ */
+public class SetCollections {
+
+}

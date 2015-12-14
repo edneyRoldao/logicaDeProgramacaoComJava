@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;aula86_87_88_89_90_91.Collections.ClasseList&apos; to &apos;ListCollection&apos;&#x0A;- Original project: &apos;UniversidadeXTI&apos;&#x0A;- Original element: &apos;aula86_87_88_89_90_91.Collections.ClasseList&apos;&#x0A;- Renamed element: &apos;aula86_87_88_89_90_91.Collections.ListCollection&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ClasseList&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;aula86_87_88_89_90_91.Collections{ClasseList.java[ClasseList" matchStrategy="1" name="ListCollection" qualified="false" references="true" similarDeclarations="false" stamp="1450060723531" textual="false" version="1.0"/>
+</session>

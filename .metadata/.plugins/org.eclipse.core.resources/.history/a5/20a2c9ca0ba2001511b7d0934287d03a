@@ -1,0 +1,14 @@
+package aula86_87_88_89_90_91.Collections;
+
+/**
+ * A interface List e filha de Collections e e implementada elas classes:
+ * LikedList
+ * Vector
+ * ArrayList
+ * 
+ * @author edneyroldao
+ *
+ */
+public class ClasseList {
+
+}

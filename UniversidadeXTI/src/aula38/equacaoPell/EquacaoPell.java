@@ -3,7 +3,7 @@ package aula38.equacaoPell;
  * 
  * @author edney.souza
  *
- * - Equa��o de Pell � uma forma de calcular o resultado Absoluto da ra�z quadrada simplesmente 
+ * - Equacao de Pell e uma forma de calcular o resultado Absoluto da raiz quadrada simplesmente 
  * 	 subtraindo os numeros impares.
  * - Pode ser visto na aula 038 - universidade XTI
  * - Link do video: https://www.youtube.com/watch?v=5BuT460Ney8&index=38&list=PLxQNfKs8YwvGhXHbHtxtoB-tRRv6r3Rlr
@@ -33,7 +33,7 @@ public class EquacaoPell {
 		}
 		
 		System.out.println("----------");
-		System.out.println("valor absoluto da raiz quadrada de " + entrada + " � = (" + raizQuadrada + ")");
+		System.out.println("valor absoluto da raiz quadrada de " + entrada + " e = (" + raizQuadrada + ")");
 		System.out.println("----------");
 
 	}

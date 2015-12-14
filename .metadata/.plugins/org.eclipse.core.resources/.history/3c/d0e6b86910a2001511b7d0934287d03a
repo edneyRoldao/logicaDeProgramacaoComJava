@@ -1,0 +1,28 @@
+package aula86_87_88_89_90_91.Collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author edneyroldao
+ *
+ *	Vamos utilizar a interface collections como auxiliar para manipulacao de listas, assim como a classe Arrays
+ *	A interface Collections pode manipular qualquer colecao na linguagem java	
+ *
+ *	Existem metodos que so vamos encotrar na classe Collections como por exemplo o metodo sort()
+ *
+ */
+public class CollectionsUtil {
+
+	public static void main(String[] args) {
+		
+		List<String> listFrutas = new ArrayList<String>();
+		listFrutas.add("Guarana");
+		listFrutas.add("Uva");
+		listFrutas.add("Manga");
+		listFrutas.add("Acai");
+		listFrutas.add("Banana");
+		
+	}
+	
+}

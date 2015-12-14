@@ -1,0 +1,50 @@
+package aula86_87_88_89_90_91.Collections;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+
+/**
+ * 
+ * @author edneyroldao
+ *
+ */
+public class PrimeiroExemploCollection {
+
+	public static void main(String[] args) {
+
+		Collection<String> c = new ArrayList<String>();
+		c.add("A");
+		c.add("B");
+		c.add("C");
+		c.add("sera que vai me remover");
+		c.add("sera que vai me remover");
+		
+		//O metodo toString vai imprimir todo lista
+		System.out.println("metodo toString: " + c.toString());
+		
+		//O metodo isEmpty vai verificar se a lista esta vazia, retornando true ou false
+		System.out.println("verifica se a lista esta vazia: " + c.isEmpty());
+		
+		//O metodo contains tambem pode ser usado em listas, retorna true ou false
+		System.out.println("Verifica a existencia da ocorrencia de algum valor na colecao: " + c.contains("D"));
+		
+		//Podemos remover um elemento da lista se soubermos todo o seu conteudo
+		c.remove("sera que vai me remover");
+		System.out.println("removendo um elemento da colecao: " + c.toString());
+		
+		/* grupos */
+		//Temos uma classe auxiliar que usamos para manipular arrays, Arrays
+		Collection<String> c2 = Arrays.asList("O", "U");//Transforma um array em lista
+		
+		//Vamos adicionar todos os elementos de um array em outro
+		c.addAll(c2);
+		System.out.println("juntando duas listas: " + c.toString());
+		
+		//Temos o metodo containsAll que verifica a existencia de uma lista completa dentro da outra
+		System.out.println(c.containsAll(c2));
+		
+
+	}
+	
+}

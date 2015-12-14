@@ -1,0 +1,25 @@
+package aula86_87_88_89_90_91.Collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * A interface List e filha de Collections e e implementada elas classes:
+ * LikedList
+ * Vector
+ * ArrayList
+ * 
+ * Basicamente a interface list é uma classe ordenada e que recebe itens duplicadas
+ * 
+ * @author edneyroldao
+ *
+ */
+public class ListCollection {
+	
+	public static void main(String[] args) {
+		
+		List<String> list = new ArrayList();
+		
+	}
+
+}
