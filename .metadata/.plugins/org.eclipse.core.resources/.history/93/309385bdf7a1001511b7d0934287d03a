@@ -1,0 +1,10 @@
+package aula69_70_71.trabalhandoComDatas;
+/**
+ * A maioria dos metodos disponiveis no objeto data foram depreciados
+ * 
+ * @author edneyroldao
+ *
+ */
+public class ObjetoDate {
+
+}

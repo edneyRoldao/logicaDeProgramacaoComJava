@@ -1,0 +1,55 @@
+package aula26;
+
+/**
+ * 
+ * @author edney.souza
+ * 
+ * - Dispensa comentários.
+ *  - aula 26 - eXcript
+ * - Link do vídeo: https://www.youtube.com/watch?v=e5ld4wdIIJg&index=27&list=PLesCEcYj003Rfzs39Y4Bs_chpkE276-gD
+ *
+ */
+public class OperadoresIncremento {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Imcrementando");
+		System.out.println("------------------------");
+		//Operadores de incremento
+		int i = 0;
+		int y = 0;
+		
+		 // ++i - Operador de pré-imcremento, aqui o incremento ocorre antes da instrução 
+		System.out.println("Incrementa antes: " + ++i);// neste caso o resultado é 1
+		
+		// y++ - Operador de pós-imcremento, aqui o incremento ocorre depois da instrução 
+		System.out.println("Incrementa depois: " + y++); // neste caso o resultado é 0
+		
+
+		System.out.println("");
+		System.out.println("");
+
+		System.out.println("Decrementando");
+		System.out.println("------------------------");
+		//Operadores de decremento
+		int a = 0;
+		int b = 0;
+		
+		 // ++i - Operador de pré-imcremento, aqui o incremento ocorre antes da instrução 
+		System.out.println("decrementa antes: " + --a);// neste caso o resultado é 1
+		
+		// y++ - Operador de pós-imcremento, aqui o incremento ocorre depois da instrução 
+		System.out.println("decrementa depois: " + b--); // neste caso o resultado é 0
+
+		
+		
+		//Definição
+		int u = 0;
+		
+		u = u + 10; //forma tradicinal
+		u += 10; //Utilizando operador de atribuição
+		u++;// Utilizando operador de incremento/decremento
+		
+	}
+
+}
