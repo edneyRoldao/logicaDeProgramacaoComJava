@@ -48,9 +48,6 @@ public class ListCollection {
 		listEsportes.subList(2, 4).clear();
 		System.out.println("removendo conjunto de elementos usando o metodo subList() e clear()" + listEsportes);
 		
-		
-		
-		
 	}
 
 	

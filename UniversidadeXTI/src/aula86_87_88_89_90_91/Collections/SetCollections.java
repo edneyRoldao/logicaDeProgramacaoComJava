@@ -24,7 +24,7 @@ public class SetCollections {
 		List<String> listaCores = Arrays.asList(cores);
 		System.out.println(listaCores);
 		
-		//As setList nao permitem valores repetidos, portanto
+		//As setList nao permitem valores repetidos, portanto só mantem registros unicos
 		Set<String> listaCoresSemRepetir = new HashSet<String>(listaCores);
 		System.out.println("Os valores nao se repetem com a interface Set" + listaCoresSemRepetir);
 	}

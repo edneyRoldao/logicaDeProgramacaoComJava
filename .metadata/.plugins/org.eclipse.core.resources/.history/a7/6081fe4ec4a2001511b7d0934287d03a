@@ -1,0 +1,22 @@
+package trabalhandoComLista;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Conversoes {
+	
+	public static void main(String[] args) {
+		
+		//Declarando um vetor, lista simples, se collections
+		String[] vectorList = new String[]{"Ronaldo", "Rivaldo", "Djalminha", "Marcelinho Carioca"};
+		
+		//Primeira forma de se declarar um Collections
+		Collection<String> arrayList = new ArrayList<String>();
+		arrayList.add("Neto");
+		arrayList.add("Romario");
+		arrayList.add("Ronaldo Giovaneli");
+		arrayList.add("Cafu");
+		
+	}
+
+}
