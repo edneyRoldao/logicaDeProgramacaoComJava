@@ -1,0 +1,18 @@
+package aula20_21_22.Array;
+
+public class ArraySimples {
+	
+	public static void main(String[] args) {
+		
+		//Formas de declarar
+		String[] paises = {"Brasil", "England"};
+
+		//Atribuir valor
+		String pais = paises[1];
+		System.out.println(pais);
+		
+		//Para acessar
+		System.out.println(paises[0]);
+	}
+
+}
