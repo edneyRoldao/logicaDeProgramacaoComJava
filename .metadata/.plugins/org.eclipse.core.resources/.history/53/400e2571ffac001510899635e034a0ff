@@ -1,0 +1,22 @@
+package aula61.expressoesRegulares;
+
+/**
+ * Basicamente sao padroes de pesquisa no formato String.
+ * Servem para validar padroes como e-mails, cpf, telefone.
+ * 
+ * @author edneyroldao
+ *
+ */
+public class ExpressaoRegular {
+	
+	public static void main(String[] args) {
+		
+		//Primeiro exemplo, vamos validar se o valor da variavel possui a palavra Java
+		String expressaoRegular = "Java";
+		String texto = "Java";
+		boolean temPadrao = texto.matches(expressaoRegular); //aqui estamos verificando se a variavel texto passa pela expressao
+		System.out.println(temPadrao);
+		
+	}
+
+}

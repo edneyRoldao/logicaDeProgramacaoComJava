@@ -1,0 +1,21 @@
+package ExpressoesRegulares;
+
+/**
+ * 
+ * Exemplos de expressoes regulares para validacao de e-mails
+ * 
+ * @author edneyroldao
+ *
+ */
+public class PadraoEmail {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public static boolean isValidEmail(String email) {
+		
+		return true;
+	}
+
+}
