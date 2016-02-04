@@ -1,0 +1,33 @@
+package ordenacao;
+
+public class OrdenacaoQuickSortBasic {
+	
+	
+	public void quickSort(int[] array) {
+		quickSorting(array, 0, array.length - 1);
+	}
+	
+	public void quickSort(int[] array, int firstIndex, int lastIndex) {
+		quickSorting(array, firstIndex, lastIndex);
+	}
+	
+	private void quickSorting(int[] array, int firstIndex, int lastIndex) {
+		
+		if(lastIndex <= firstIndex) return;
+		
+		
+		
+			
+	}
+	
+
+	private int partition(int[] array, int firstIndex, int lastIndex) {
+		
+		int i = firstIndex;
+		int pivotIndex = firstIndex;
+		int j = lastIndex + 1;
+		
+		return 0;
+	}
+	
+}
