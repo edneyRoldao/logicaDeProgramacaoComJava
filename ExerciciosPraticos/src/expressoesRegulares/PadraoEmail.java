@@ -1,4 +1,4 @@
-package ExpressoesRegulares;
+package expressoesRegulares;
 
 /**
  * 
