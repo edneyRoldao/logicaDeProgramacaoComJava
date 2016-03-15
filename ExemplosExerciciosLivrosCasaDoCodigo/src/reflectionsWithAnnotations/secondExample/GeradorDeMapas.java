@@ -1,4 +1,4 @@
-package reflections.firstExample;
+package reflectionsWithAnnotations.secondExample;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
@@ -6,9 +6,10 @@ import java.util.Map;
 
 /**
  * In order to practice my English skills, I'm going to write all comments in English. 
- * 
  * This concepts about reflections and annotations were got from book written by Casa do Código
  *
+ * There are two validations with annotations in this second.
+ * 
  * @author Edney Roldao
  *
  */
@@ -27,7 +28,12 @@ public class GeradorDeMapas {
 		for(Method m : classe.getMethods()) {
 			try {
 				if(isGetter(m)) {
-					String prop = convertGetMethodNameToPropertyName(m.getName());
+					String prop = null;
+					if(m.isAnnotationPresent(NameProperty.class)) {
+						prop = m.getAnnotation(NameProperty.class).value();
+					}else {
+						prop = convertGetMethodNameToPropertyName(m.getName());
+					}
 					Object value = m.invoke(obj);
 					mapMethods.put(prop, value);
 				}
@@ -45,7 +51,10 @@ public class GeradorDeMapas {
 	 * @return true if method is a getter. It has three verifications.
 	 */
 	private static boolean isGetter(Method m) {
-		boolean isGetter = m.getName().startsWith("get") && m.getReturnType() != Void.class && m.getParameterTypes().length == 0;
+		boolean isGetter = m.getName().startsWith("get") 
+							&& m.getReturnType() != Void.class 
+							&& m.getParameterTypes().length == 0
+							&& ! m.isAnnotationPresent(Ignore.class);
 		return isGetter;
 	}
 	
@@ -62,26 +71,5 @@ public class GeradorDeMapas {
 		
 		return turnBackProp.toString();
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }
