@@ -13,11 +13,11 @@ import java.util.Iterator;
 @SuppressWarnings("rawtypes")
 public class DiscJockey_v2 {
 
-	SongIterator iter70;
-	SongIterator iter80;
-	SongIterator iter90;
+	SongIteratorInterface iter70;
+	SongIteratorInterface iter80;
+	SongIteratorInterface iter90;
 	
-	public DiscJockey_v2(SongIterator iter70, SongIterator iter80, SongIterator iter90) {
+	public DiscJockey_v2(SongIteratorInterface iter70, SongIteratorInterface iter80, SongIteratorInterface iter90) {
 		this.iter70 = iter70;
 		this.iter80 = iter80;
 		this.iter90 = iter90;

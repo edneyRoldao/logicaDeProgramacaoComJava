@@ -3,7 +3,7 @@ package designPatterns.derekBanas.video17.iterator;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class MusicasAnos80_v2 implements SongIterator {
+public class MusicasAnos80_v2 implements SongIteratorInterface {
 
 	SongInformation[] bestSongs;
 	

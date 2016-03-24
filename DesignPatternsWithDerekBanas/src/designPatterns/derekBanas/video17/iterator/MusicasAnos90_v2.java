@@ -3,7 +3,7 @@ package designPatterns.derekBanas.video17.iterator;
 import java.util.Hashtable;
 import java.util.Iterator;
 
-public class MusicasAnos90_v2 implements SongIterator{
+public class MusicasAnos90_v2 implements SongIteratorInterface{
 
 	Hashtable<Integer, SongInformation> bestSongs = new Hashtable<>();
 	
