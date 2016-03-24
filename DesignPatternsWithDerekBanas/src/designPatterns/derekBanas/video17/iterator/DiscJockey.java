@@ -6,8 +6,8 @@ import java.util.Hashtable;
 
 /**
  * Esta classe serve para explicar porque usar o Pattern Iterator.
- * Veja que nessa classe tivemos que duplicar o codigo para fazer o mesmo tipo de iteracao pois cada colecao de musica e de um tipo diferente.
- * Um e array simple, hashTable e ArrayList
+ * Veja que nessa classe tivemos que duplicar o código para fazer o mesmo tipo de iteração pois cada coleção de musica é de um tipo diferente.
+ * Array simple, hashTable e ArrayList
  * 
  * @author EdneyRoldao
  *
@@ -27,6 +27,7 @@ public class DiscJockey {
 	// este metodo apresenta codigo duplicado. Isso nao e uma boa pratica
 	public void showTheSongs() {
 
+		//ArrayList
 		@SuppressWarnings("rawtypes")
 		ArrayList al70sSongs = musicasAnos70.getBestSongs();
 		System.out.println("Songs of the 70s\n");
@@ -37,6 +38,10 @@ public class DiscJockey {
 			System.out.println(bestSong.getYearReleased());
 		}
 
+		System.out.println();
+		System.out.println();
+		
+		//Array
 		SongInformation[] array80sSongs = musicasAnos80.getBestSongs();
 		System.out.println("Songs of the 80s\n");
 		for(int i = 0; i < array80sSongs.length;i++) {
@@ -46,6 +51,10 @@ public class DiscJockey {
 			System.out.println(bestSong.getYearReleased());
 		}
 		
+		System.out.println();
+		System.out.println();
+		
+		//HashTable
 		Hashtable<Integer, SongInformation> ht90sSongs = musicasAnos90.getBestSongs();
 		System.out.println("Songs of the 90s\n");
 
