@@ -1,4 +1,4 @@
-package reflectionsWithAnnotations.fifth;
+package reflectionsWithAnnotations.Example05;
 
 /**
  * This is a simple example for retrieve an object through Object with method obj.getClass()

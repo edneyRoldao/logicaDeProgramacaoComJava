@@ -1,4 +1,4 @@
-package reflectionsWithAnnotations.firstExample;
+package reflectionsWithAnnotations.Example01;
 
 import java.util.Map;
 

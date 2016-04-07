@@ -1,4 +1,4 @@
-package reflectionsWithAnnotations.sixth;
+package reflectionsWithAnnotations.Example06;
 
 import java.util.ArrayList;
 import java.util.Arrays;

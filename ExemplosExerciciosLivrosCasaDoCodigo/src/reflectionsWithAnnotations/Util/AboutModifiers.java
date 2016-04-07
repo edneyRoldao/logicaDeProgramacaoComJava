@@ -1,4 +1,4 @@
-package reflectionsWithAnnotations.generalExamples;
+package reflectionsWithAnnotations.Util;
 
 import java.lang.reflect.Modifier;
 

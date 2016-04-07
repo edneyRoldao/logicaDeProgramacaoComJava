@@ -1,4 +1,4 @@
-package reflectionsWithAnnotations.fifth;
+package reflectionsWithAnnotations.Example05;
 
 /**
  * The code below shows you how to use reflections with static references.

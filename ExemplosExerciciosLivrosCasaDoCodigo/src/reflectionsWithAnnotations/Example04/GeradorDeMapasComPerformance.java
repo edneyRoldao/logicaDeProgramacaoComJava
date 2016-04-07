@@ -1,11 +1,11 @@
-package reflectionsWithAnnotations.fourthExample;
+package reflectionsWithAnnotations.Example04;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-import reflectionsWithAnnotations.secondExample.Ignore;
-import reflectionsWithAnnotations.secondExample.NameProperty;
+import reflectionsWithAnnotations.Example02.Ignore;
+import reflectionsWithAnnotations.Example02.NameProperty;
 
 /**
  * This class is one example to optimize methods that use reflections, in this

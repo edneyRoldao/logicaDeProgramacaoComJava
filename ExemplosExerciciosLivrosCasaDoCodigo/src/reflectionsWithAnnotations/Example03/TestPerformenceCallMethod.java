@@ -1,4 +1,4 @@
-package reflectionsWithAnnotations.thirdExample;
+package reflectionsWithAnnotations.Example03;
 
 /**
  * 

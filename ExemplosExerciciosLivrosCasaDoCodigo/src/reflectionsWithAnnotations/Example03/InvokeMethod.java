@@ -1,4 +1,4 @@
-package reflectionsWithAnnotations.thirdExample;
+package reflectionsWithAnnotations.Example03;
 /**
  * Method signature that will to test the performance between normal invocation and from reflections 
  * 

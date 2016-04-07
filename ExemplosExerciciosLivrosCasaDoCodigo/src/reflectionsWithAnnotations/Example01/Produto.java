@@ -1,4 +1,4 @@
-package reflectionsWithAnnotations.thirdExample;
+package reflectionsWithAnnotations.Example01;
 
 import java.io.Serializable;
 
@@ -6,13 +6,13 @@ public class Produto implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	// Attributes
+	//Attributes
 	private String name;
 	private String category;
 	private Double price;
 	private String description;
 
-	// Constructors
+	//Constructors
 	public Produto(String name, String category, Double price, String description) {
 		super();
 		this.name = name;
@@ -25,11 +25,7 @@ public class Produto implements Serializable {
 
 	}
 
-	// Methods
-	public void emptyMethod() {
-	}
-
-	// Getters and Setters
+	//Getters and Setters
 	public String getName() {
 		return name;
 	}

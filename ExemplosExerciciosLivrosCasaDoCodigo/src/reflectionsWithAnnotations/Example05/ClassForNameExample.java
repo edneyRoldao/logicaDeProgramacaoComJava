@@ -1,4 +1,4 @@
-package reflectionsWithAnnotations.fifth;
+package reflectionsWithAnnotations.Example05;
 
 import java.io.FileInputStream;
 import java.io.IOException;
