@@ -1,4 +1,4 @@
-package aula62_63_64_65_66.InputOutput;
+package aula62_63.InputOutput;
 
 import java.io.IOException;
 import java.nio.file.Files;

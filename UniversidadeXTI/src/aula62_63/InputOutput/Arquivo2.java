@@ -1,4 +1,4 @@
-package aula62_63_64_65_66.InputOutput;
+package aula62_63.InputOutput;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -21,7 +21,7 @@ public class Arquivo2 {
 		Path caminho = Paths.get("C:/javaIO/texto.xls");
 		Charset utf8 = StandardCharsets.UTF_8;
 		
-		////////////// ESCREVER EM ARQUIVOS ////////////////////////////////////
+		////////////// ESCREVER EM ARQUIVOS //////////////////////////////////////////
 		// Essa forma de inicializar é somente a partir do Java 7
 		try(BufferedWriter wr = Files.newBufferedWriter(caminho, utf8)) {
 
@@ -31,7 +31,7 @@ public class Arquivo2 {
 		} catch (IOException e) {
 			e.printStackTrace();
 		} 
-		///////////////////////////////////////////////////////////////////////
+		//////////////////////////////////////////////////////////////////////////////
 		
 		///////////////////// LEITURA DE ARQUIVOS ////////////////////////////////////
 		try(BufferedReader br = Files.newBufferedReader(caminho, utf8)) {
@@ -45,7 +45,7 @@ public class Arquivo2 {
 		} catch (IOException e) {
 			e.printStackTrace();
 		} 
-		///////////////////////////////////////////////////////////////////////
+		//////////////////////////////////////////////////////////////////////////////
 		
 	}
 	
