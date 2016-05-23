@@ -42,6 +42,14 @@ public class Vetor {
 	
 	public void adiciona(int posicao, Aluno aluno) {
 		
+		if(!this.isPosicaoValida(posicao))
+			throw new IllegalArgumentException("Posicao invalida !");
+		
+		for(int i = this.totalAlunosAdicionados -1; i >= posicao; i -= 1)
+			this.alunos[i + 1] = this.alunos[i];
+		
+		this.alunos[posicao] = aluno;
+		this.totalAlunosAdicionados++;
 	}
 	
 	public Aluno pega(int posicao) {
@@ -53,6 +61,13 @@ public class Vetor {
 	
 	public void remove(int posicao) {
 		
+		if(!this.isPosicaoOcupada(posicao))
+			throw new IllegalArgumentException("Posição inválida !");
+		
+		for(int i = posicao; i < this.totalAlunosAdicionados; i++)
+			this.alunos[i] = this.alunos[i + 1];
+		
+		this.totalAlunosAdicionados--;
 	}
 	
 	// Veja que esse metodo nao esta performatico, pois ele vai procurar por todo o array, ate mesmo as posicoes vazias
