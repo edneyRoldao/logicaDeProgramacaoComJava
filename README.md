@@ -1,13 +1,13 @@
-# Guia de Estudo Java SE 1.7 e 1.8
-<b>Do zero à certificação Oracle Certified Professional, Java SE 7 Programmer I e II.</b>
+# Estudo Java SE - (Versões 1.7 e 1,8)
 
-Este repositório contém diversos exercícios desenvolvidos a partir de vários tutoriais e vídeos.
-Segue a lista de alguns:
+- Resolvi criar esse repositório para servir como um guia de estudos para obter as cerfificações da Oracle.
 
-- Vídeo aulas universidade XTI
-- Livro casa do código - certificação java SE 7
-- Curso na USP de performance de algoritmos, arvore binária e outros
-- Livro de Orientação a objetos casa do código - conceitos de SOLID  
-
-
+<hr/>
+Aqui exitem exercicíos com implementações próprias e outros obtidos em tutoriais disponíveis no youtube e livros.
+<b> Principais Referências bibliográficas</b>
+<br/>
+- youtube - curso Java SE Universidade XTI<br/>
+- youtube - Vídeos Loiane Groner<br/>
+- https://www.javacodegeeks.com/ (site excelente com diversos tutoriais e documentações)<br/>
+- Diversos livros da casa do código - (exemplo: Java 8 Pratico Lambdas Streams e os Novos Recursos da Linguagem)
 

@@ -50,10 +50,6 @@ public class ContaBancaria {
 		}
 	}
 	
-	public void gravarLogTransacoes() {
-		
-	}
-	
 	// Getters and Setters
 	public String getCliente() {
 		return cliente;
