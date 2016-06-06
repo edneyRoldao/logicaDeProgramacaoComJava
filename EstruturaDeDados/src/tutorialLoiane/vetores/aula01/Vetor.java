@@ -7,13 +7,14 @@ package tutorialLoiane.vetores.aula01;
  *
  * aula 01 - vetores (array simples)
  */
+@SuppressWarnings("unused")
 public class Vetor {
 	
 	private String[] elementos;
 	private int controleTamanhoVetor;
 	
 	
-	// Com esse construtor, somos obrigados a passar o tamanho do array de elementos no momento da instanciação.
+	// Com esse construtor, somos obrigados a passar o tamanho do array de elementos no momento da instanciaï¿½ï¿½o.
 	public Vetor(int tamanhoVetor) {
 		elementos = new String[tamanhoVetor];
 		controleTamanhoVetor = 0;

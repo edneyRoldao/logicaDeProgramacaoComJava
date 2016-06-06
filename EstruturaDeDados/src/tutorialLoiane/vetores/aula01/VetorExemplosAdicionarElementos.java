@@ -4,7 +4,7 @@ package tutorialLoiane.vetores.aula01;
  * ESTRUTURA DE DADOS
  * @author Edney Roldao
  *
- *	Exemplos de métodos que adicionam elementos em um vetor (array simples)
+ *	Exemplos de mÃ©todos que adicionam elementos em um vetor (array simples)
  *
  */
 public class VetorExemplosAdicionarElementos {
@@ -55,7 +55,7 @@ public class VetorExemplosAdicionarElementos {
 			this.elementos[controleTamanhoVetor] = elemento;
 			this.controleTamanhoVetor++;
 		}else {
-			throw new ArrayIndexOutOfBoundsException("O array já está cheio.");
+			throw new ArrayIndexOutOfBoundsException("O array jï¿½ estï¿½ cheio.");
 		}
 	}
 	
