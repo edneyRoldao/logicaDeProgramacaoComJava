@@ -13,7 +13,6 @@ public class ContaBancaria {
 	}
 	
 	public ContaBancaria(String cliente, float saldo) {
-		super();
 		this.cliente = cliente;
 		this.saldo = saldo;
 	}
